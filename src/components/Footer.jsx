@@ -17,7 +17,7 @@ const Footer = () => {
         <p><Link to="/tsawebmaster/references">References</Link></p>
       </div>
       <div className="footer-section footer-info">
-        <h4>TSA tsawebmaster</h4>
+        <h4>TSA Webmaster</h4>
         <p>Satej Gandre</p>
         <p>Independence HS</p>
         <p>Copyright © 2025</p>
