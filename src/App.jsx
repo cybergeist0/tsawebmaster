@@ -22,7 +22,7 @@ function AnimatedRoutes() {
       <CSSTransition key={location.key} classNames="page" timeout={300}>
         <Routes location={location}>
           <Route
-            path="/webmaster/"
+            path="/tsawebmaster/"
             element={
               <>
                 <NavbarHome />
@@ -36,7 +36,7 @@ function AnimatedRoutes() {
             }
           />
           <Route
-            path="/webmaster/menu"
+            path="/tsawebmaster/menu"
             element={
               <>
                 <NavbarPages />
@@ -50,7 +50,7 @@ function AnimatedRoutes() {
             }
           />
           <Route
-            path="/webmaster/contact"
+            path="/tsawebmaster/contact"
             element={
               <>
                 <NavbarPages />
@@ -64,7 +64,7 @@ function AnimatedRoutes() {
             }
           />
           <Route
-            path="/webmaster/approach"
+            path="/tsawebmaster/approach"
             element={
               <>
                 <NavbarPages />
@@ -78,7 +78,7 @@ function AnimatedRoutes() {
             }
           />
           <Route
-            path="/webmaster/references"
+            path="/tsawebmaster/references"
             element={
               <>
                 <NavbarPages />

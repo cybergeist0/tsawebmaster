@@ -27,7 +27,7 @@ const NavbarHome = () => {
   return (
     <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <div className="navbar-container">
-        <Link to="/webmaster/" className="navbar-logo">
+        <Link to="/tsawebmaster/" className="navbar-logo">
         Floraire
         </Link>
         <div className="menu-icon" onClick={toggleMenu}>
@@ -35,27 +35,27 @@ const NavbarHome = () => {
         </div>
         <ul className={`nav-menu ${menuOpen ? "active" : ""}`}>
           <li className="nav-item">
-            <Link to="/webmaster/" className="nav-links" onClick={() => setMenuOpen(false)}>
+            <Link to="/tsawebmaster/" className="nav-links" onClick={() => setMenuOpen(false)}>
               Home
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/webmaster/menu" className="nav-links" onClick={() => setMenuOpen(false)}>
+            <Link to="/tsawebmaster/menu" className="nav-links" onClick={() => setMenuOpen(false)}>
               Menu
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/webmaster/approach" className="nav-links" onClick={() => setMenuOpen(false)}>
+            <Link to="/tsawebmaster/approach" className="nav-links" onClick={() => setMenuOpen(false)}>
               Our Approach
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/webmaster/contact" className="nav-links" onClick={() => setMenuOpen(false)}>
+            <Link to="/tsawebmaster/contact" className="nav-links" onClick={() => setMenuOpen(false)}>
               Contact
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/webmaster/references" className="nav-links" onClick={() => setMenuOpen(false)}>
+            <Link to="/tsawebmaster/references" className="nav-links" onClick={() => setMenuOpen(false)}>
               References
             </Link>
           </li>
